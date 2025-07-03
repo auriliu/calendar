@@ -1,0 +1,36 @@
+
+------------------------------------------
+project idea:
+    - a list of USERS on the left:
+        + avatar + name + status (green/grey)
+        - identified by color
+            - hm, how to go about it?
+            - 2 status or one?
+            - 1st status: isAtHome.
+            - 2nd status: onDuty.
+
+
+        + ability to add/remove a user.
+            + confirmation on delete()
+            - maybe, delete a user on UsersDetails?..
+        - also change its satus from active (green)/inactive (e.g. sold out)
+            - at home vs traveling.
+    
+        - 2nd filtered array with those that are at home.
+        - once someone comes back from travelling, where to place it?
+
+    - CALENDAR on the right:
+        - show the current month.
+        - grey out days outside the month before and after.
+        - highlight the current day.
+        - highlight the week whose turn it is.
+            - in the color of the user. 
+        - the display has to track the current day, update the view with new month view as needed.
+        - almost like a dashboard..?
+
+        - colors of the week have to reflect the current users []
+
+    - NOTIFICATIONS:
+        - every monday send a notification for the changed turn in the whatsapp group chat.
+
+------------------------------------------
